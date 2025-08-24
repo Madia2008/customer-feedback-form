@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Feedback Form</title>
+</head>
+<body>
+    <h1>Customer Feedback Form</h1>
+  <p>Please take a few minutes to give us feedback about our service by filling in this form. We are conducting this research to measure your level of satisfaction with the quality of our service. Thank you for your participation.</p>
+  <hr>
+
+  <h3>Overall Experience With Our Service</h3>
+  <form>
+    <table cellpadding="5">
+      <tr>
+        <th></th>
+        <th>Very<br>Good</th>
+        <th>Good</th>
+        <th>Fair</th>
+        <th>Poor</th>
+        <th>Very<br>Poor</th>
+      </tr>
+      <tr>
+        <td>How would you rate your overall experience with our service?</td>
+        <td><input type="radio" name="experience"></td>
+        <td><input type="radio" name="experience"></td>
+        <td><input type="radio" name="experience"></td>
+        <td><input type="radio" name="experience"></td>
+        <td><input type="radio" name="experience"></td>
+      </tr>
+      <tr>
+        <td>How satisfied are you with the comprehensiveness of our offer?</td>
+        <td><input type="radio" name="offer"></td>
+        <td><input type="radio" name="offer"></td>
+        <td><input type="radio" name="offer"></td>
+        <td><input type="radio" name="offer"></td>
+        <td><input type="radio" name="offer"></td>
+      </tr>
+      <tr>
+        <td>How would you rate our prices?</td>
+        <td><input type="radio" name="price"></td>
+        <td><input type="radio" name="price"></td>
+        <td><input type="radio" name="price"></td>
+        <td><input type="radio" name="price"></td>
+        <td><input type="radio" name="price"></td>
+      </tr>
+      <tr>
+        <td>How satisfied are you with the timeliness of order delivery?</td>
+        <td><input type="radio" name="delivery"></td>
+        <td><input type="radio" name="delivery"></td>
+        <td><input type="radio" name="delivery"></td>
+        <td><input type="radio" name="delivery"></td>
+        <td><input type="radio" name="delivery"></td>
+      </tr>
+      <tr>
+        <td>How satisfied are you with the customer support?</td>
+        <td><input type="radio" name="support"></td>
+        <td><input type="radio" name="support"></td>
+        <td><input type="radio" name="support"></td>
+        <td><input type="radio" name="support"></td>
+        <td><input type="radio" name="support"></td>
+      </tr>
+      <tr>
+        <td>Would you recommend our product/service to other people?</td>
+        <td><input type="radio" name="recommend"></td>
+        <td><input type="radio" name="recommend"></td>
+        <td><input type="radio" name="recommend"></td>
+        <td><input type="radio" name="recommend"></td>
+        <td><input type="radio" name="recommend"></td>
+      </tr>
+    </table>
+
+    <br>
+    <label for="respond"><strong>What should we change to live up to your expectations?</strong></label><br>
+    <textarea id="respond" placeholder="Write your response here" name="message" rows="10" cols="30"></textarea>
+
+    <br><br>
+    <h4>Email</h4>
+    <small>Only if you want to hear more from us.</small><br>
+    <input type="email" name="email"><br><br>
+
+    <input type="submit" value="Send Feedback">
+  </form>
+</body>
+</html>
